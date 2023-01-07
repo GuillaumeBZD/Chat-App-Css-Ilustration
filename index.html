@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script
+      src="https://kit.fontawesome.com/f09eba901c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Chat App Css Ilustration]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="colored_part"></div>
+    <div class="colored_part--bottom"></div>
+    <!-- phone part -->
+    <main class="phone">
+      <header>
+        <div class="phone_notch"></div>
+        <div class="user_part">
+          <i class="fa-solid fa-chevron-left"></i>
+          <img class="avatar" src="./images/avatar.jpg" alt="user's picture" />
+          <section class="user_info">
+            <h3 class="username">Samuel Green</h3>
+            <span class="status">Available to Walk</span>
+          </section>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </header>
+      <section class="chat_part">
+        <div class="left_chat">
+          <p class="chat_user--left">
+            That sounds great. I'd be happy with that.
+          </p>
+          <p class="chat_user--left">
+            Could you send over some pictures of your dog, please?
+          </p>
+        </div>
+
+        <div class="right_chat">
+          <figure class="chat_picture">
+            <img src="./images/dog-image-1.jpg" alt="happy dog" />
+            <img src="./images/dog-image-2.jpg" alt="lying dog" />
+            <img
+              src="./images/dog-image-3.jpg"
+              alt="dog holding a large piece of wood"
+            />
+          </figure>
+
+          <p class="chat_user--right">
+            Here are a few pictures. She's a happy girl!
+          </p>
+          <p class="chat_user--right">Can you make it?</p>
+        </div>
+
+        <div class="left_chat">
+          <p class="chat_user--left">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+        </div>
+        <div class="suggested">
+          <div class="suggested_walk">
+            <div class="radio"></div>
+            <p class="suggested_walk--text">30 minute walk</p>
+            <span class="suggested_walk--price">$29</span>
+          </div>
+
+          <div class="suggested_walk">
+            <div class="radio"></div>
+            <p class="suggested_walk--text">1 hour walk</p>
+            <span class="suggested_walk--price">$49</span>
+          </div>
+        </div>
+        <p class="type_message">
+          Type a message…
+          <i class="fa-solid fa-chevron-right"></i>
+        </p>
+      </section>
+    </main>
+
+    <!-- text part -->
+    <article>
+      <h1>Simple booking</h1>
+      <p class="article_text">
+        Stay in touch with our dog walkers through the chat interface. This
+        makes it easy to discuss arrangements and make bookings. Once the walk
+        has been completed you can rate your walker and book again all through
+        the chat.
+      </p>
+    </article>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">GuillaumeBZD</a>.
+    </footer>
+  </body>
+</html>
