@@ -35,85 +35,91 @@
     </style>
   </head>
   <body>
-    <div class="colored_part"></div>
-    <div class="colored_part--bottom"></div>
-    <!-- phone part -->
-    <main class="phone">
-      <header>
-        <div class="phone_notch"></div>
-        <div class="user_part">
-          <i class="fa-solid fa-chevron-left"></i>
-          <img class="avatar" src="./images/avatar.jpg" alt="user's picture" />
-          <section class="user_info">
-            <h3 class="username">Samuel Green</h3>
-            <span class="status">Available to Walk</span>
-          </section>
-          <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </header>
-      <section class="chat_part">
-        <div class="left_chat">
-          <p class="chat_user--left">
-            That sounds great. I'd be happy with that.
-          </p>
-          <p class="chat_user--left">
-            Could you send over some pictures of your dog, please?
-          </p>
-        </div>
+    <div class="style__container">
+      <div class="colored_part"></div>
+      <div class="colored_part--bottom"></div>
 
-        <div class="right_chat">
-          <figure class="chat_picture">
-            <img src="./images/dog-image-1.jpg" alt="happy dog" />
-            <img src="./images/dog-image-2.jpg" alt="lying dog" />
+      <!-- phone part -->
+      <main class="phone">
+        <header>
+          <div class="phone_notch"></div>
+          <div class="user_part">
+            <i class="fa-solid fa-chevron-left"></i>
             <img
-              src="./images/dog-image-3.jpg"
-              alt="dog holding a large piece of wood"
+              class="avatar"
+              src="./images/avatar.jpg"
+              alt="user's picture"
             />
-          </figure>
-
-          <p class="chat_user--right">
-            Here are a few pictures. She's a happy girl!
-          </p>
-          <p class="chat_user--right">Can you make it?</p>
-        </div>
-
-        <div class="left_chat">
-          <p class="chat_user--left">
-            She looks so happy! The time we discussed works. How long shall I
-            take her out for?
-          </p>
-        </div>
-        <div class="suggested">
-          <div class="suggested_walk">
-            <div class="radio"></div>
-            <p class="suggested_walk--text">30 minute walk</p>
-            <span class="suggested_walk--price">$29</span>
+            <section class="user_info">
+              <h3 class="username">Samuel Green</h3>
+              <span class="status">Available to Walk</span>
+            </section>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </header>
+        <section class="chat_part">
+          <div class="left_chat">
+            <p class="chat_user--left">
+              That sounds great. I'd be happy with that.
+            </p>
+            <p class="chat_user--left">
+              Could you send over some pictures of your dog, please?
+            </p>
           </div>
 
-          <div class="suggested_walk">
-            <div class="radio"></div>
-            <p class="suggested_walk--text">1 hour walk</p>
-            <span class="suggested_walk--price">$49</span>
+          <div class="right_chat">
+            <figure class="chat_picture">
+              <img src="./images/dog-image-1.jpg" alt="happy dog" />
+              <img src="./images/dog-image-2.jpg" alt="lying dog" />
+              <img
+                src="./images/dog-image-3.jpg"
+                alt="dog holding a large piece of wood"
+              />
+            </figure>
+
+            <p class="chat_user--right">
+              Here are a few pictures. She's a happy girl!
+            </p>
+            <p class="chat_user--right">Can you make it?</p>
           </div>
-        </div>
-        <p class="type_message">
-          Type a message…
-          <i class="fa-solid fa-chevron-right"></i>
+
+          <div class="left_chat">
+            <p class="chat_user--left">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+          <div class="suggested">
+            <div class="suggested_walk">
+              <div class="radio"></div>
+              <p class="suggested_walk--text">30 minute walk</p>
+              <span class="suggested_walk--price">$29</span>
+            </div>
+
+            <div class="suggested_walk">
+              <div class="radio"></div>
+              <p class="suggested_walk--text">1 hour walk</p>
+              <span class="suggested_walk--price">$49</span>
+            </div>
+          </div>
+          <p id="type_message">
+            Type a message…
+            <i class="fa-solid fa-chevron-right"></i>
+          </p>
+        </section>
+      </main>
+
+      <!-- text part -->
+      <article>
+        <h1>Simple booking</h1>
+        <p class="article_text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
         </p>
-      </section>
-    </main>
-
-    <!-- text part -->
-    <article>
-      <h1>Simple booking</h1>
-      <p class="article_text">
-        Stay in touch with our dog walkers through the chat interface. This
-        makes it easy to discuss arrangements and make bookings. Once the walk
-        has been completed you can rate your walker and book again all through
-        the chat.
-      </p>
-    </article>
-
+      </article>
+    </div>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
